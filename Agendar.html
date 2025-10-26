@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- VOLTA UMA PASTA (../) para acessar css/ -->
+    <link rel="stylesheet" href="../css/estilo.css">  
+    <link rel="stylesheet" href="../css/mobile.css" media="(max-width: 1023px)">
+    <script src="../js/script.js"></script>
+    <title>Agendar Consulta - Bicho Bão</title>
+    <link rel="shortcut icon" href="../imagens/logo.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="menu"> 
+    
+        <a href="../index.html">
+        <img src="../imagens/marca.png" id="marca"  >
+        </a>
+        <nav class="navegacao">
+            <button class="btn" onclick="agendar()">Agendar consulta <img src="../imagens/agendar.png" id="agendar"></button>   
+            <button class="btn" onclick="sobre()">Sobre <img src="../imagens/sobre.png" id="sobre"></button>     
+            <button class="btn" onclick="contatos()">Contato <img src="../imagens/contatos.png" id="contatos"></button>  
+        </nav>
+    </header>
+
+      <h1 class="ag">Agendar Consulta</h1>
+    <div class="consultas">
+    <div class="servico-item" onclick="agendarWhatsApp('consulta')"> 
+        Consulta 
+        <i class="fa-solid fa-stethoscope" style="color: #74C0FC;"></i>
+    </div>
+    
+    <div class="servico-item" onclick="agendarWhatsApp('cirurgia')"> 
+        Orçamento cirurgia 
+        <i class="fa-solid fa-user-doctor" style="color: #74C0FC;"></i>
+    </div>
+    
+    <div class="servico-item" onclick="agendarWhatsApp('oncologia')"> 
+        Consulta oncologia 
+        <i class="fa-solid fa-microscope" style="color: #74C0FC;"></i>
+    </div>
+    
+    <div class="servico-item" onclick="agendarWhatsApp('dermatologia')"> 
+        Consulta dermatologia 
+        <i class="fa-solid fa-paw" style="color: #74C0FC;"></i>
+    </div>
+    
+    <div class="servico-item" onclick="agendarWhatsApp('silvestres')"> 
+        Consulta de Silvestres 
+        <i class="fa-solid fa-crow" style="color: #74C0FC;"></i>
+    </div>
+    
+    <div class="servico-item" onclick="agendarWhatsApp('vacinacao')"> 
+        Vacinação 
+        <i class="fa-solid fa-syringe" style="color: #74C0FC;"></i>
+    </div>
+    
+    <div class="servico-item" onclick="agendarWhatsApp('ultra')"> 
+        Ultrassonografia 
+        <i class="fa-solid fa-camera-retro" style="color: #74C0FC;"></i>
+    </div>
+    
+    <div class="servico-item" onclick="agendarWhatsApp('radiografia')"> 
+        Radiografia 
+        <i class="fa-solid fa-notes-medical" style="color: #74C0FC;"></i>
+    </div>
+    
+    <div class="servico-item" onclick="agendarWhatsApp('hemograma')"> 
+        Hemograma 
+        <i class="fa-solid fa-droplet" style="color: #ff230a;"></i>
+    </div>
+    
+    <div class="servico-item" onclick="agendarWhatsApp('urina-fezes')"> 
+        Exames de Urina e Fezes 
+        <i class="fa-solid fa-vial" style="color: #74C0FC;"></i>
+    </div>
+</div>
+
+    <footer>
+   
+        <p class="informacoes">Bicho Bão Clínica Veterinária - Helbert Valverde
+        Praça Dona Suzana Barbosa, 91 - Centro, Guaxupé - MG, 37834-015<br> 
+        <br>
+        Horários: De segunda a sexta Das 8h às 11:30h - 13 as 18
+        Sábados Das 09:00h as 13:00h</p>
+
+        
+        <div class="rodape">   
+            <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3718.592097650657!2d-46.7165306!3d-21.3037369!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b64f5e3a15dbb9%3A0x9d87e542a36ae2cc!2sBicho%20B%C3%A3o%20Cl%C3%ADnica%20Veterin%C3%A1ria%20-%20Helbert%20Valverde!5e0!3m2!1spt-BR!2sbr!4v1691096857587!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </footer>
+</body>
+</html>
