@@ -1,0 +1,407 @@
+
+
+
+
+body{
+  background: linear-gradient( to right, #a1c4fd, #c2e9fb);
+  
+    
+    padding: 0px;
+    margin: 0px;
+     display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  
+ 
+    
+}
+main {
+  flex: 1; /* Ocupa todo espaço disponível */
+}
+ header{
+    display: flex;
+    justify-content: space-between;
+      background-image: url(../imagens/PATINHAS.gif);
+    
+    margin-top: 0px;
+  
+  
+  
+    
+    
+ }
+ html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+/* Garante que tudo respeite o tamanho interno */
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+/* Ajusta o header */
+header.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+ 
+
+ 
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  cursor: pointer;
+}
+footer {
+  width: 100%;
+  background-color: rgba(10, 157, 255, 0.959);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  
+  box-sizing: border-box;
+ margin-top: auto;
+  
+  
+}
+@keyframes wave {
+   0%{
+     transform: translateY(0px);
+   
+  }
+  50%{
+     transform: translateY(+20px);
+  }
+  100%{
+     transform: translateY(0px);
+  } 
+}
+ 
+ 
+ 
+ 
+ .menu{
+     
+   display: flex;
+    flex-direction: column;
+    
+    align-items: center;    
+ 
+     
+    width: auto;
+ 
+    
+     
+} 
+.ag{  
+    
+   
+    font-style: oblique;
+    font-size: xx-large;
+    text-align: center;
+}
+.navegacao {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.navegacao{
+    display: flex;
+    border: 1px solid black;
+    justify-content: space-around;
+    align-items: center; 
+    width: 100%;
+    height: 80px;
+    background-color:  rgba(10, 157, 255, 0.959) ; 
+     
+}
+ 
+.mensagem{
+ 
+        
+         text-align: justify; 
+         font-style: oblique;
+         font-size: large;
+
+    
+}
+.mensagem h1{
+    text-align: center;
+   
+     
+}
+ 
+.mensagem h3{
+    text-align: center;
+     width: auto;
+     
+}
+.slide{
+  
+    display: flex;
+    margin-right: auto ;
+    margin-left: auto;
+    border: 20px solid black;
+    padding: 30px;
+}
+.btn{
+ 
+    font-size: 20px;
+    border: none;   
+    cursor: pointer;
+       
+         text-align: justify; 
+        
+         font-style: oblique;
+    background: none;
+    
+     
+    
+     
+}
+
+.imagem-container{
+     position: relative;
+     width: 500px;
+     height: 300px;
+     
+}    
+
+
+.rodape {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.mapa {
+   
+  width: 100%;
+  max-width: 300px;
+  height: 200px;
+  border: none;
+  margin-left: 700px;
+}
+.informacoes {
+   
+         text-align: justify;        
+         font-style: oblique;  
+  font-size: 20px;
+   
+  
+  
+}
+ 
+ 
+
+.entre-contato {
+    text-align: left;         
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: x-large;
+    font-style: oblique;
+}
+
+.instagram {
+   width: 100px;
+     height: 90px;
+     
+}
+
+.whatsApp {
+     width: 60px;
+     height: 50px;
+}
+
+.email {
+    width: 60px;
+     height: 50px;
+}
+
+ 
+.contato-container {
+ position: absolute;     
+  top: 277px;           
+  left: 1px;            
+  height: 400px;
+  width: 300px;
+  box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+  z-index: 10;
+ 
+}
+ 
+
+.consultas{
+    display: grid;
+   grid-template-columns: 1fr 1fr  ;  
+   gap: 30px;
+   padding: 20px;
+   width: 30%;  
+   margin-right: auto;
+   margin-left: auto;  
+ 
+ 
+   
+}
+ 
+.servico-item{
+    background: blue;
+   color: white;
+   padding: 30px;
+ 
+   text-align: center;
+   border-radius: 40px;
+   cursor: pointer;
+ 
+
+}
+.servico-item:hover{
+  transform: scale(1.2);
+}
+.sobre{
+   text-align: left;        
+   font-style: oblique;  
+   font-size: 1.5rem;
+
+}
+.sobre-container{
+   width: 75%;
+    margin-left: auto;
+    
+    border: 2px solid black ;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+}
+.sobre-imagem{
+  display: flex;
+   position: absolute;
+    top: 18rem;      
+    border: 2px solid black ;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);               
+      
+     
+    text-align: center;
+     width: 400px;
+     height: 500px;
+     overflow: hidden;
+}
+.sobre-imagem img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+     
+}
+
+.entre-contato{
+    text-align: right;        
+    font-style: oblique;  
+    font-size: x-large;
+    display: flex;
+    flex-direction: row;
+    
+     
+}
+.contato-mensagem{
+    
+    position: relative;
+    left: 500px;
+    font-size: x-large;
+    font-style: oblique;
+    text-align: center;
+        
+    padding: 10px;
+     
+}
+.redes-sociais {
+         
+    animation: wave 2s infinite ease-in-out;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 950px;
+}
+.destaque-central{
+    background: linear-gradient(135deg, rgba(10, 157, 255, 0.1) 0%, rgba(255,255,255,1) 100%);
+   
+    text-align: center;
+    margin: 60px 0;
+    border-top: 3px solid rgba(10, 157, 255, 0.3);
+    border-bottom: 3px solid rgba(10, 157, 255, 0.3);
+}
+
+ 
+#marca{
+     width: 200px;
+     height: 200px;      
+}
+  
+     
+ 
+#agendar{
+    width: 30px;
+    height: 30px;
+     
+   
+ 
+    
+}
+#servicos{
+    width: 30px;
+    height: 30px;
+     
+ 
+  
+}   
+#contatos{
+    width: 30px;
+    height: 30px;
+    
+ 
+    
+}   
+#sobre{
+    width: 30px;
+    height: 30px;
+     
+  
+    
+}   
+#mainSlide {
+            height: 400px;
+              width: 600px;
+            object-fit: cover;
+             
+            transition: opacity 0.8s ease-in-out;
+        }
+#sobreSlide {
+  transition: opacity 0.8s ease-in-out; 
+height: 400px;
+  width: 300px;
+
+  object-fit: cover;
+  object-position: center;
+}
+ 
+ 

@@ -1,0 +1,220 @@
+/* ===== MOBILE CSS - SOBREPOE O DESKTOP ===== */
+@media (max-width: 1023px) {
+    
+    /* 🔹 RESET DO BODY */
+    body {
+        display: block;
+        min-height: 100vh;
+        background: linear-gradient(to right, #a1c4fd, #c2e9fb);
+        overflow-x: hidden;
+    }
+    
+    /* 🔹 HEADER MOBILE */
+    header.menu {
+        flex-direction: column;
+        padding: 10px 5%;
+    }
+    
+    #marca {
+        width: 120px !important;
+        height: 120px !important;
+        margin-bottom: 10px;
+    }
+    
+    .navegacao {
+        flex-direction: column;
+        height: auto !important;
+        gap: 8px;
+        padding: 10px;
+    }
+    
+    .btn {
+        width: 100% !important;
+        font-size: 16px;
+        padding: 12px;
+        margin: 2px 0;
+    }
+    
+    /* 🔹 PÁGINA AGENDAR MOBILE */
+    .consultas {
+        grid-template-columns: 1fr !important;
+        width: 100% !important;
+        padding: 15px 5% !important;
+        gap: 15px;
+    }
+    
+    .servico-item {
+        padding: 20px 15px !important;
+        font-size: 16px;
+        min-height: 100px;
+        border-radius: 15px !important;
+    }
+    
+    .servico-item:hover {
+        transform: scale(1.05) !important;
+    }
+    
+    .ag {
+        font-size: 28px;
+        text-align: center;
+        margin: 20px 0;
+    }
+    
+    /* 🔹 PÁGINA SOBRE MOBILE */
+    .sobre-container {
+        width: 100% !important;
+        margin-left: 0 !important;
+        margin: 20px auto !important;
+        padding: 20px 5%;
+        border: none !important;
+        box-shadow: none !important;
+    }
+    
+    .sobre-imagem {
+        position: relative !important;
+        top: auto !important;
+        width: 100% !important;
+        height: auto !important;
+        margin: 20px 0;
+        padding: 0 5%;
+        border: none !important;
+        box-shadow: none !important;
+    }
+    
+    .sobre-imagem img {
+        width: 100%;
+        height: 300px;
+        border-radius: 10px;
+    }
+    
+    .sobre {
+        font-size: 16px !important;
+        text-align: left;
+        line-height: 1.6;
+        padding: 0;
+    }
+    
+    /* 🔹 PÁGINA CONTATO MOBILE */
+    .contato-container {
+        position: relative !important;
+        top: auto !important;
+        left: auto !important;
+        width: 100% !important;
+        height: auto !important;
+        margin: 20px 0;
+        padding: 0 5%;
+    }
+    
+    .contato-mensagem {
+        position: relative !important;
+        left: auto !important;
+        font-size: 18px;
+        text-align: center;
+        margin: 20px 0;
+        padding: 0 5%;
+    }
+    
+    .redes-sociais {
+        margin-left: 0 !important;
+        justify-content: center;
+        margin: 30px 0;
+        gap: 20px;
+    }
+    
+    .entre-contato {
+        text-align: center !important;
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    /* 🔹 FOOTER MOBILE */
+    .mapa {
+        margin-left: 0 !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        height: 300px;
+    }
+    
+    .informacoes {
+        font-size: 14px;
+        text-align: center;
+        padding: 0 5%;
+    }
+    
+    /* 🔹 HOME PAGE MOBILE */
+    .mensagem h1 {
+        font-size: 24px;
+    }
+    
+    .mensagem h3 {
+        font-size: 16px;
+        text-align: center;
+        line-height: 1.5;
+    }
+    
+    .slide {
+        border: 8px solid black !important;
+        padding: 15px !important;
+        margin: 15px auto;
+        max-width: 90%;
+    }
+    
+    #mainSlide, #sobreSlide {
+        width: 100% !important;
+        height: auto !important;
+        max-width: 100%;
+    }
+    
+    /* 🔹 DESTAQUE CENTRAL MOBILE */
+    .destaque-central {
+        margin: 30px 0 !important;
+        padding: 40px 5% !important;
+    }
+}
+
+/* ===== TABLET (768px - 1023px) ===== */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .consultas {
+        grid-template-columns: repeat(2, 1fr) !important;
+        max-width: 700px;
+        margin: 0 auto;
+    }
+    
+    .navegacao {
+        flex-direction: row !important;
+        gap: 10px;
+    }
+    
+    .btn {
+        width: auto !important;
+        font-size: 14px;
+        padding: 10px 15px;
+    }
+    
+    #marca {
+        width: 150px !important;
+        height: 150px !important;
+    }
+}
+
+/* ===== MOBILE PEQUENO (até 480px) ===== */
+@media (max-width: 480px) {
+    .servico-item {
+        padding: 15px 10px !important;
+        font-size: 14px;
+        min-height: 80px;
+    }
+    
+    .instagram, .whatsApp, .email {
+        width: 40px !important;
+        height: 40px !important;
+    }
+    
+    .mensagem h1 {
+        font-size: 20px;
+    }
+    
+    .mensagem h3 {
+        font-size: 14px;
+    }
+}
